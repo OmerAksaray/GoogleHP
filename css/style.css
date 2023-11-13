@@ -1,0 +1,128 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.options {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+.options img{
+    width: 20px;
+    margin: 10px;
+}
+.options a{
+    margin: 10px;
+}
+.options button{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    color: white;
+    background-color: #4285f4;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid transparent;
+    
+
+}
+.options img:hover{
+    opacity: 0.6;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.middle{
+    
+    display: flex;
+    margin-top: 15%;
+}
+.logo{
+   
+    margin-left:37%;
+    position: absolute;
+}
+.search{
+    position: absolute;
+    width: 40%;
+    margin-left: 27%;
+    margin-top: 9%;
+    
+    
+    height: 120px;;
+   
+}
+.searchBar {
+    position: absolute;
+    width: 90%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    height: 30px;
+}
+
+
+.icon1{
+    position: absolute;
+   margin-top: 5px;
+   margin-left: 30px;
+}
+.icon1:hover{
+    opacity: 0.5;
+}
+.icon2{
+    position: absolute;
+    margin-left: 468px;
+    width: 30px;
+    margin-top: 4.5px;
+    
+}
+.icon2:hover{
+    opacity: 0.8;
+}
+button {
+    text-align: center;
+}
+.btn{
+    justify-content: space-between;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: -90px; 
+    
+    border: none;
+}
+.btn:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.subTitle{
+    
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.leftSub{
+    text-align: left;
+    
+}
+.rightSub{
+    text-align: right;
+    margin-left: 57%;
+}
+.subTitle a{
+    
+    padding: 5px;
+}
